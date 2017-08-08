@@ -1,0 +1,23 @@
+{
+  "name": "ccurl",
+  "version": "0.2.0",
+  "description": "C port of the Curl library",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm run compile",
+    "compile": "cmake-js compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotaledger/ccurl.git"
+  },
+  "author": "IOTA AS, IOTA Foundation & Developers (https://iotatoken.com)",
+  "license": "MIT",
+  "dependencies": {
+    "cmake-js": "^3.5.0",
+    "ffi": "^2.2.0"
+  },
+  "keywords": [
+    "iota"
+  ]
+}

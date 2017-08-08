@@ -19,3 +19,5 @@ libold/
 *.cl.h
 *.h.h
 scripts/libccurl.so
+.DS_Store
+node_modules/
