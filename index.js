@@ -1,9 +1,8 @@
-var path = require('path');
+const path = require('path')
+const ffi = require('ffi')
+const ccurl = path.join(__dirname, 'build', 'lib', 'libccurl')
 
-var ffi = require('ffi');
-
-var ccurl = path.join(__dirname, 'build', 'lib', 'libccurl')
-var libccurl = ffi.Library(ccurl, {
+const libccurl = ffi.Library(ccurl, {
     ccurl_pow : [ 'string', [ 'string', 'int'] ],
     ccurl_pow_finalize : [ 'void', [] ],
     ccurl_pow_interrupt: [ 'void', [] ]

@@ -1,6 +1,6 @@
 {
-  "name": "ccurl",
-  "version": "0.2.0",
+  "name": "ccurl-prizz",
+  "version": "1.0.0",
   "description": "C port of the Curl library",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iotaledger/ccurl.git"
+    "url": "git+https://github.com/pRizz/ccurl.git"
   },
-  "author": "IOTA AS, IOTA Foundation & Developers (https://iotatoken.com)",
+  "author": "IOTA AS, IOTA Foundation & Developers (https://iotatoken.com), modified by Peter Ryszkiewicz",
   "license": "MIT",
   "dependencies": {
     "cmake-js": "^3.5.0",

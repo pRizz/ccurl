@@ -21,3 +21,4 @@ libold/
 scripts/libccurl.so
 .DS_Store
 node_modules/
+.idea
