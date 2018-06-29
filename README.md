@@ -58,3 +58,5 @@ Make sure `cmake` is installed
 Currently does not properly install on Windows 10 with errors about `xxd` not found.
 
 Works on Mac
+
+Not currently compatible with Node v10 due to `ffi` issue. Works with Node v8. Installed with `nvm use 8`.
