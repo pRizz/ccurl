@@ -50,3 +50,11 @@ If using GPU acceleration, you may tune the loop length with
 `ccurl_pow_set_loop_count(my_loop_count);` with the library, or 
 setting an environment variable to, for example, `CCURL_LOOP_COUNT=64`, when 
 using ccurl-cli.
+
+## Installing with `npm`
+
+Make sure `cmake` is installed
+
+Currently does not properly install on Windows 10 with errors about `xxd` not found.
+
+Works on Mac
