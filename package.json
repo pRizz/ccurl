@@ -14,7 +14,7 @@
   "author": "IOTA AS, IOTA Foundation & Developers (https://iotatoken.com), modified by Peter Ryszkiewicz",
   "license": "MIT",
   "dependencies": {
-    "cmake-js": "^3.5.0",
+    "cmake-js": "^3.7.3",
     "ffi": "^2.2.0"
   },
   "keywords": [
